@@ -1,0 +1,16 @@
+<script>
+
+    let myObject={
+        value:10,
+        multiplyt :function(num)
+        {
+          return this.value * num;
+        },
+        multiplya : (a) =>{
+            let value = myObject.value;
+         return value * a;
+        }
+    }
+  console.log(myObject.multiplyt(2));
+    console.log(myObject.multiplya(2));
+</script>
